@@ -54,6 +54,9 @@ import CategoryManagement from "./pages/admin/CategoryManagement";
 import RevenueReports from "./pages/admin/RevenueReports";
 import PlatformSettings from "./pages/admin/PlatformSettings";
 import AdminWallets from "./pages/admin/AdminWallets";
+import CoursesLandingPage from "./pages/CoursesLandingpage";
+import AboutUs from "./pages/AboutUs";
+import ContactUsPage from "./pages/ContactUsPage";
 
 function App() {
   const dispatch = useDispatch();
@@ -75,6 +78,9 @@ function App() {
       
       <Route path="/unauthorized" element={<UnauthorizedPage />} />
       <Route path="/verify-email/:token" element={<VerifyEmailPage />} />
+      <Route path="/techmind-courses" element={<CoursesLandingPage />} />
+      <Route path="/about" element={<AboutUs/>} />
+       <Route path="/contact" element={<ContactUsPage/>} />
       {/* <Route path="/payment/success" element={<PaymentSuccessPage />} /> */}
 
       {/* ── Auth pages: redirect away if already logged in ────────────────── */}
@@ -84,6 +90,7 @@ function App() {
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/forgot-password" element={<ForgotPasswordPage />} />
         <Route path="/reset-password/:token" element={<ResetPasswordPage />} />
+        {/* <Route path="/techmind-courses" element={<CoursesLandingPage />} /> */}
       </Route>
 
       {/* ── Student routes: only role="student" ──────────────────────────── */}

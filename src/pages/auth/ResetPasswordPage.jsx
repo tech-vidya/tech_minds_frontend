@@ -37,7 +37,7 @@ export function ResetPasswordPage() {
       >
         <div className="text-center mb-8">
           <Link to="/">
-            <span className="text-3xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">Tech Vidya</span>
+            <span className="text-3xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">Tech Minds</span>
           </Link>
         </div>
         <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl border border-gray-100 dark:border-gray-700 p-8">

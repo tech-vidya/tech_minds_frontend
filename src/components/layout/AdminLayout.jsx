@@ -18,7 +18,7 @@ function SidebarContent({ onClose, user, logout }) {
   return (
     <div className="flex flex-col h-full w-64 bg-slate-950 border-r border-slate-800">
       <div className="h-16 flex items-center px-6 border-b border-slate-800">
-        <Link to="/" className="text-xl font-bold text-white">Tech Vidya <span className="text-orange-400 text-sm font-normal">Admin</span></Link>
+        <Link to="/" className="text-xl font-bold text-white">Tech Minds <span className="text-orange-400 text-sm font-normal">Admin</span></Link>
         {onClose && <button onClick={onClose} className="ml-auto text-slate-400 hover:text-white"><svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12"/></svg></button>}
       </div>
       <nav className="flex-1 px-3 py-4 space-y-0.5 overflow-y-auto">

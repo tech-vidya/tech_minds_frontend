@@ -79,7 +79,7 @@ export default function RegisterPage() {
         <div className="text-center mb-8">
           <Link to="/">
             <span className="text-3xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-              Tech Vidya
+              Tech Minds
             </span>
           </Link>
           <p className="text-gray-500 dark:text-gray-400 mt-2 text-sm">

@@ -97,7 +97,7 @@ const options = {
   key: res.keyId,
   amount: res.amount,
   currency: res.currency,
-  name: "Tech Vidya",
+  name: "Tech Minds",
   description: res.courseName,
   order_id: res.orderId,
   method: {
@@ -200,7 +200,7 @@ razor.open();
           <Link to="/courses" className="text-gray-400 hover:text-gray-700 dark:hover:text-white transition">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7"/></svg>
           </Link>
-          <Link to="/" className="text-lg font-bold bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">Tech Vidya</Link>
+          <Link to="/" className="text-lg font-bold bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">Tech Minds</Link>
         </div>
       </nav>
 

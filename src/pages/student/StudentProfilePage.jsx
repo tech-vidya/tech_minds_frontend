@@ -177,7 +177,7 @@ export default function StudentProfilePage() {
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-4">
           <div className="bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 rounded-2xl p-5">
             <h3 className="text-sm font-semibold text-gray-900 dark:text-white mb-1">Become a Creator</h3>
-            <p className="text-xs text-gray-500 dark:text-gray-400 mb-4">Apply to create and sell your own courses on Tech Vidya.</p>
+            <p className="text-xs text-gray-500 dark:text-gray-400 mb-4">Apply to create and sell your own courses on Tech Minds.</p>
             <button onClick={async () => {
               try {
                 await api.post("/admin/creator-requests/apply");

@@ -36,7 +36,7 @@ export default function Register() {
             </svg>
           </div>
           <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Create your account</h1>
-          <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Join thousands of learners on Tech Vidya</p>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Join thousands of learners on Tech Minds</p>
         </div>
 
         <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl border border-gray-100 dark:border-gray-700 p-8">

@@ -35,7 +35,7 @@ export default function Login() {
             </svg>
           </div>
           <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Welcome back</h1>
-          <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Sign in to your Tech Vidya account</p>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Sign in to your Tech Minds account</p>
         </div>
 
         {/* Card */}

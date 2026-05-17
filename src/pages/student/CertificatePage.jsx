@@ -106,7 +106,7 @@ function CertificateTemplate({ enrollment, user, forPdf = false }) {
               letterSpacing: 1,
             }}
           >
-            Tech Vidya
+            Tech Minds
           </span>
         </div>
 
@@ -257,7 +257,7 @@ function CertificateTemplate({ enrollment, user, forPdf = false }) {
           <div style={{ textAlign: "center" }}>
             <div style={{ height: 1, width: 120, background: "#d1d5db", marginBottom: 6, margin: "0 auto 6px" }} />
             <p style={{ fontSize: forPdf ? 11 : "clamp(9px,1vw,11px)", color: "#6b7280", fontFamily: "sans-serif", margin: 0 }}>
-              Tech Vidya
+              Tech Minds
             </p>
             <p style={{ fontSize: forPdf ? 10 : "clamp(8px,0.9vw,10px)", color: "#9ca3af", fontFamily: "sans-serif", margin: 0 }}>
               Platform

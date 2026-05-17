@@ -26,7 +26,7 @@ function Toggle({ value, onChange }) {
 
 export default function PlatformSettings() {
   const [settings, setSettings] = useState({
-    siteName: "Tech Vidya",
+    siteName: "Tech Minds",
     siteUrl: "https://techvidya.com",
     supportEmail: "support@techvidya.com",
     platformFeePercent: 20,
@@ -100,7 +100,7 @@ export default function PlatformSettings() {
       {/* Payments */}
       <div className="bg-slate-800 border border-slate-700 rounded-2xl p-5">
         <h2 className="text-sm font-semibold text-white mb-4">Payments</h2>
-        <SettingRow label="Platform fee (%)" desc="Percentage kept by Tech Vidya on each sale">
+        <SettingRow label="Platform fee (%)" desc="Percentage kept by Tech Minds on each sale">
           <div className="flex items-center gap-2">
             <input type="number" value={settings.platformFeePercent} min={0} max={100}
               onChange={e => set("platformFeePercent", Number(e.target.value))}
